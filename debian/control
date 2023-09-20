@@ -1,0 +1,18 @@
+Source: attr
+Section: unknown
+Priority: optional
+Maintainer: Jackson Hansen <madjack971@bsdmail.com>
+Build-Depends: debhelper-compat (= 13), dh-autoreconf
+Standards-Version: 4.5.1
+Homepage: https://savannah.nongnu.org/projects/attr/
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/maddjack2020/attr.git
+Vcs-Browser: https://github.com/maddjack2020/attr
+
+Package: attr
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: auto-generated package by debmake
+ The Attr package contains utilities to administer the extended attributes of
+ filesystem objects.
